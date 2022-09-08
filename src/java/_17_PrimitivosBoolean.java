@@ -1,4 +1,4 @@
-package src;
+package src.java;
 
 public class _17_PrimitivosBoolean {
     public static void main(String[] args) {

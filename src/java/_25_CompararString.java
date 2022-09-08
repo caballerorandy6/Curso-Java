@@ -1,4 +1,4 @@
-package src;
+package src.java;
 
 public class _25_CompararString {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src;
+package src.java;
 
 public class _21_ConversionDeTipos {
     public static void main(String[] args) {

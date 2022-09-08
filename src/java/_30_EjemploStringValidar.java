@@ -5,8 +5,25 @@ public class _30_EjemploStringValidar {
 
         String curso = null;
 
-        booleanesNulo = curso == null;
+        boolean esNulo = curso == null;
 
-        System.out.println("curso = " + curso);
+        System.out.println("esNulo = " + esNulo);
+        if (esNulo) {
+            curso = " "; //"Programacion Java";
+        }
+
+        boolean esVacio = curso.length() == 0;
+        System.out.println("esVacio = " + esVacio);
+
+        boolean esVacio2 = curso.isEmpty();
+        System.out.println("esVacio2 = " + esVacio2);
+
+        boolean esBlanco = curso.isBlank();
+        System.out.println("esBlanco = " + esBlanco);
+
+        if (!esBlanco) {
+            System.out.println(curso.toUpperCase());
+            System.out.println("Bievenidos al curso " + curso);
+        }
     }
 }
